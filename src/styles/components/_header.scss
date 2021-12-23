@@ -1,0 +1,18 @@
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+
+  .theme-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    .theme-text {
+      text-transform: uppercase;
+      margin: 0 1rem;
+    }
+  }
+}

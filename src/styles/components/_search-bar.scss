@@ -1,0 +1,39 @@
+.searchbar-component {
+  .search-container {
+    width: 100%;
+    height: 4rem;
+    position: relative;
+
+    .search-icon,
+    .search-button {
+      position: absolute;
+    }
+
+    .search-icon {
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .search-button {
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 70%;
+      width: 5rem;
+      background-color: $blue;
+      border: none;
+      border-radius: 1rem;
+    }
+
+    .search-input {
+      height: 100%;
+      width: 100%;
+      background-color: $lm-white;
+      border: none;
+      border-radius: 1rem;
+      padding-left: clamp(3rem, 10vw, 10%);
+      outline: none;
+    }
+  }
+}
